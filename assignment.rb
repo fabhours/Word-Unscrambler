@@ -21,9 +21,9 @@ end
 #print answers to console
 if answers.size > 0
 	answers.each do |answer|
-		print "Answer: "+ answer  
+		puts "Answer: "+ answer  
 	end
 else
-	print "Sorry, no solutions are possible."
+	puts "Sorry, no solutions are possible."
 end
 
