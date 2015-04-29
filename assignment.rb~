@@ -1,3 +1,5 @@
+require 'colorize'
+
 #append entire lines into words array
 words = []
 File.open("dictionary.txt", "r").each_line do |line|
@@ -5,7 +7,7 @@ File.open("dictionary.txt", "r").each_line do |line|
 end
 
 puts "Input random word:"
-print">"
+print">".yellow
 input = $stdin.readline()
 
 #store available answers in answers array
